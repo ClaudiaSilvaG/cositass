@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS','Comic Sans', sans-serif;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+h2{
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif; 
+}
+
+#titulo-cabazera{
+    text-align: center; 
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+    font-style: italic;
+}
+
+div.cuerpo{
+    margin-bottom: 15px;
+    border: 1px solid red;
+}
+
+div.cuerpo .mi-elemento-flotante{
+    float: right;
+}
+
+div.cuerpo .mi-elemento-flotante > img{
+   
+    max-width: 500px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+
+}
+span{
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Comic Sans', sans-serif; 
+    font-size: 12; 
+    color: rgb(0, 0, 0);
+}
+
+
+.clear{
+    clear: both;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ input,
+    textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+  }
+
+  label {
+    line-height: 1.9rem;
+  }
+
+  input[type="submit"] {
+   transform: translate(2.2%);
+   padding: 3px;
+   margin-top: 0.6rem;
+   font-family: cursive;
+   font-weight: bold;
+  }
+
+ fieldset {
+   padding: 20px 40px;
+ }
+
+
+ .login-form {
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}

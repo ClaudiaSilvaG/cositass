@@ -1,0 +1,66 @@
+html,body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: rebeccapurple;
+    margin-bottom: 50px;
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    color:white;
+    background-color: red;
+    margin: 0;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+footer{
+    background: lawngreen;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1hv;
+    margin-top: 20%;
+    form{
+        background: beige;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 4px 19px;
+        .control{
+            margin-bottom: 10px;
+            label{
+                font-weight: bold;
+                display: block;
+                margin-bottom: 5px;
+            }
+            input{
+                width: 100%;
+                
+            }
+        }
+        .control-checkbox{
+            label{
+                font-weight: bold;
+            }
+            margin-bottom: 5px;
+        }
+        button{
+            font-weight: bold;
+            background: cadetblue;
+            border: 1px solid green;
+            padding: 5px 10px;
+            color: aliceblue;
+            margin-bottom: 5px;
+        }
+    }
+}

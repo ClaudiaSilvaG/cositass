@@ -1,0 +1,88 @@
+html {
+    background-color: #232323;
+}
+
+body {
+    background-color: #232323 !important;
+    color: white !important;
+}
+
+/* Cambiamos el estilo a todo el nav bar */
+.navbar-custom {
+    background-color: #232323;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-custom .nav-link {
+    color: white;
+    font-family: Staatliches;
+    font-size: larger;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #232323;
+    background-color: white;
+}
+
+.navbar-custom .dropdown-item {
+    color: white;
+    font-family: Staatliches;
+    font-size: larger;
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: #232323;
+    border: none;
+}
+
+.navbar-custom .dropdown-item:hover {
+    color: #232323;
+    background-color: white;
+}
+
+.navbar-custom .form-control {
+    color: white;
+    font-family: Staatliches;
+    background-color: #232323;
+}
+
+.btn.btn-outline-success,.btn-outline-success {
+    background-color: #bd6aff;
+    color: white;
+    font-family: Staatliches;
+    border-color: #bd6aff;
+    border-radius: 0px;
+    --bs-btn-hover-color: #bd6aff;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-active-color: #bd6aff;
+    --bs-btn-active-bg: white;
+    --bs-btn-active-border-color: white;
+    --bs-btn-focus-shadow-rgb: white;
+}
+
+/* Cambiamos el estilo al carrousel */
+.carousel-item img {
+    max-height: 85vh;
+    object-fit: contain;
+}
+
+.carousel-inner {
+    background-color: #232323;
+}
+
+.text-purple{
+    color:#bd6aff;
+}
+.card-body.custom-card-body , .custom-card-body {
+    background-color: #303030;
+    border-radius: 5px;
+    color: white;
+}
